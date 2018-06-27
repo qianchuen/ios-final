@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6OE-W1-oN4">
-    <device id="retina5_5" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="d8u-uZ-psc">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -16,11 +16,11 @@
             <objects>
                 <viewController id="6OE-W1-oN4" userLabel="MainPageView Controller" customClass="MainPageViewController" customModule="swaybian" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3dg-Ic-ac3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="9Dw-O1-n0e">
-                                <rect key="frame" x="62" y="295" width="290" height="210"/>
+                                <rect key="frame" x="42.666666666666657" y="328" width="290" height="210"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="d83-0K-uLa">
                                         <rect key="frame" x="0.0" y="0.0" width="290" height="80"/>
@@ -117,22 +117,22 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P1x-Op-SVI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="773.60000000000002" y="-30.134932533733135"/>
+            <point key="canvasLocation" x="1679.7101449275362" y="-30.163043478260871"/>
         </scene>
         <!--Plant Table View Controller-->
         <scene sceneID="X6v-8t-hv7">
             <objects>
                 <tableViewController id="esh-xJ-XVT" userLabel="Plant Table View Controller" customClass="PlantTableViewController" customModule="swaybian" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="I2K-aS-P9I">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="100" id="sxl-OX-sLj" customClass="PlantTableViewCell" customModule="swaybian" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="414" height="100"/>
+                                <rect key="frame" x="0.0" y="28" width="375" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="sxl-OX-sLj" id="Qzv-hd-zFx">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="99.666666666666671"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="99.666666666666671"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="X7B-dd-Srs">
@@ -175,18 +175,18 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JBJ-ja-n3U" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1544.8" y="-31.03448275862069"/>
+            <point key="canvasLocation" x="2450.7246376811595" y="-31.793478260869566"/>
         </scene>
         <!--Plant Detail View Controller-->
         <scene sceneID="sEp-yP-Hrb">
             <objects>
                 <viewController id="Voy-gc-ad1" userLabel="Plant Detail View Controller" customClass="PlantDetailViewController" customModule="swaybian" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CHB-gi-AT5">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="900"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="j2t-wC-FvK">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="j2t-wC-FvK">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="900"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <view key="tableHeaderView" contentMode="scaleToFill" id="hao-9G-T8K" userLabel="Header View" customClass="plantDetailHeaderView" customModule="swaybian" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="350"/>
@@ -232,7 +232,7 @@
                                     </connections>
                                 </view>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="plantDetailIconTextCell" id="65Z-jF-rdD" customClass="plantDetailIconTextCell" customModule="swaybian" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="plantDetailIconTextCell" id="65Z-jF-rdD" customClass="plantDetailIconTextCell" customModule="swaybian" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="378" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="65Z-jF-rdD" id="3tc-ae-RxS">
@@ -240,7 +240,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="qAi-Rn-okB">
-                                                    <rect key="frame" x="15" y="15" width="384" height="28.666666666666671"/>
+                                                    <rect key="frame" x="15" y="15" width="423" height="28.666666666666671"/>
                                                     <subviews>
                                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Fo1-By-a3h">
                                                             <rect key="frame" x="0.0" y="4.3333333333333321" width="20" height="20"/>
@@ -250,7 +250,7 @@
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dux-su-joB">
-                                                            <rect key="frame" x="30" y="4.3333333333333321" width="354" height="20.333333333333332"/>
+                                                            <rect key="frame" x="30" y="4.3333333333333321" width="393" height="20.333333333333332"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -270,7 +270,7 @@
                                             <outlet property="shortTextLabel" destination="dux-su-joB" id="1wH-eI-A5v"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="plantDetailTextCell" id="ekv-Zm-H5K" customClass="plantDetailTextCell" customModule="swaybian" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="plantDetailTextCell" id="ekv-Zm-H5K" customClass="plantDetailTextCell" customModule="swaybian" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="422" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ekv-Zm-H5K" id="SaS-a3-8bt">
@@ -278,7 +278,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BY1-zV-aMS">
-                                                    <rect key="frame" x="35" y="26" width="344" height="7"/>
+                                                    <rect key="frame" x="30" y="26" width="393" height="7"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -293,6 +293,69 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="descriptionLabel" destination="BY1-zV-aMS" id="4Ob-hC-CP8"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="RestaurantDetailSeparatorCell" id="zOS-hb-IL4" customClass="RestaurantDetailSeparatorCell" customModule="swaybian" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="466" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zOS-hb-IL4" id="P74-EE-XLH">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="O4Q-eF-8Or">
+                                                    <rect key="frame" x="15" y="12.333333333333336" width="423" height="26.333333333333329"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subsection Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="flV-Oi-FYL">
+                                                            <rect key="frame" x="0.0" y="0.0" width="423" height="20.333333333333332"/>
+                                                            <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nmt-Pd-aec" userLabel="separator">
+                                                            <rect key="frame" x="0.0" y="25.333333333333329" width="423" height="1"/>
+                                                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="1" id="XM6-pT-zBf"/>
+                                                            </constraints>
+                                                        </view>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="O4Q-eF-8Or" secondAttribute="bottom" constant="5" id="JjU-Zv-WHy"/>
+                                                <constraint firstItem="O4Q-eF-8Or" firstAttribute="leading" secondItem="P74-EE-XLH" secondAttribute="leading" constant="15" id="MIS-kn-azz"/>
+                                                <constraint firstItem="O4Q-eF-8Or" firstAttribute="top" relation="greaterThanOrEqual" secondItem="P74-EE-XLH" secondAttribute="top" constant="10" id="myL-qP-Zpf"/>
+                                                <constraint firstAttribute="trailing" secondItem="O4Q-eF-8Or" secondAttribute="trailing" constant="15" id="y23-Gf-A2S"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="titleLabel" destination="flV-Oi-FYL" id="TIK-Ko-Rys"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="RestaurantDetailMapCell" rowHeight="215" id="O1z-zX-LaJ" customClass="RestaurantDetailMapCell" customModule="swaybian" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="510" width="414" height="215"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="O1z-zX-LaJ" id="302-Ig-7sa">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="214.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" scrollEnabled="NO" rotateEnabled="NO" pitchEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nEV-Va-O3H">
+                                                    <rect key="frame" x="0.0" y="10" width="453" height="194"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="194" id="6Fi-Ty-YfL"/>
+                                                    </constraints>
+                                                </mapView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="nEV-Va-O3H" secondAttribute="trailing" id="85z-Fk-iKf"/>
+                                                <constraint firstItem="nEV-Va-O3H" firstAttribute="top" secondItem="302-Ig-7sa" secondAttribute="top" constant="10" id="Kt5-XQ-LLB"/>
+                                                <constraint firstItem="nEV-Va-O3H" firstAttribute="leading" secondItem="302-Ig-7sa" secondAttribute="leading" id="RAR-XG-zbg"/>
+                                                <constraint firstAttribute="bottom" secondItem="nEV-Va-O3H" secondAttribute="bottom" id="YTC-hy-avx"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="mapView" destination="nEV-Va-O3H" id="2nz-x9-6Xg"/>
+                                            <segue destination="zyG-ZW-bK5" kind="show" identifier="toMap" id="WXx-5H-gmm"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -311,31 +374,61 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="yRv-kZ-HVo"/>
                     </view>
+                    <size key="freeformSize" width="414" height="900"/>
                     <connections>
                         <outlet property="headerView" destination="hao-9G-T8K" id="RQM-uh-chC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i68-8M-TaE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2262.3188405797105" y="-30.163043478260871"/>
+            <point key="canvasLocation" x="3168" y="-30.295566502463057"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="q2L-E6-Qb9">
+            <objects>
+                <viewController id="zyG-ZW-bK5" customClass="mapViewController" customModule="swaybian" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TK2-Uj-AW2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" rotateEnabled="NO" pitchEnabled="NO" showsCompass="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vxt-lx-K5I">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Vxt-lx-K5I" secondAttribute="bottom" id="Ipo-dF-ay9"/>
+                            <constraint firstItem="Vxt-lx-K5I" firstAttribute="top" secondItem="TK2-Uj-AW2" secondAttribute="top" id="Ulh-4B-LLz"/>
+                            <constraint firstItem="Vxt-lx-K5I" firstAttribute="leading" secondItem="jUA-um-YAq" secondAttribute="leading" id="Xhh-J1-n5Q"/>
+                            <constraint firstItem="Vxt-lx-K5I" firstAttribute="trailing" secondItem="jUA-um-YAq" secondAttribute="trailing" id="neb-YJ-HJF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jUA-um-YAq"/>
+                    </view>
+                    <connections>
+                        <outlet property="mapView1" destination="Vxt-lx-K5I" id="6MN-pN-dLG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pll-zj-xFq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3976.8000000000002" y="-62.068965517241381"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="TWJ-1O-DSe">
+        <scene sceneID="ppk-PH-tns">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uQf-dg-WyZ" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="d8u-uZ-psc" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="QKe-aq-5zS">
-                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="K8R-rn-Hws">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="6OE-W1-oN4" kind="relationship" relationship="rootViewController" id="Jzc-Ea-N5b"/>
+                        <segue destination="6OE-W1-oN4" kind="relationship" relationship="rootViewController" id="LTr-oo-LuP"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="B3l-jB-GWA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Dd-UW-2pZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-165.59999999999999" y="-30.134932533733135"/>
+            <point key="canvasLocation" x="772.46376811594212" y="-30.163043478260871"/>
         </scene>
     </scenes>
     <resources>

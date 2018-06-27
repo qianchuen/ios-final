@@ -12,7 +12,7 @@ class PlantDetailViewController: UIViewController, UITableViewDataSource, UITabl
         return 1
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
+        return 5
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
@@ -22,7 +22,7 @@ class PlantDetailViewController: UIViewController, UITableViewDataSource, UITabl
         case 0:
             let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: plantDetailIconTextCell.self), for: indexPath) as! plantDetailIconTextCell
             cell.iconImageView.image = UIImage(named: "grass")
-            cell.shortTextLabel.text = plants.location
+            cell.shortTextLabel.text = plants.habitat
             return cell
         case 1:
 //            let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: plantDetailTextCell.self), for: indexPath)as! plantDetailTextCell
@@ -32,10 +32,22 @@ class PlantDetailViewController: UIViewController, UITableViewDataSource, UITabl
             cell.descriptionLabel.text = plants.description
             return cell
         /*case 2:
-            let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: ButterflyDetailTextCell.self), for: indexPath)as!ButterflyDetailTextCell
-            cell.descriptionLabel.text = butterfly.habits
+            let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: RestaurantDetailMapCell.self), for: indexPath) as! RestaurantDetailMapCell
             return cell*/
+        case 2:
+            let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: plantDetailTextCell.self), for: indexPath)as!plantDetailTextCell
+            cell.descriptionLabel.text = plants.habitat
+            return cell
             
+        case 3:
+            let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: RestaurantDetailSeparatorCell.self), for: indexPath) as! RestaurantDetailSeparatorCell
+            cell.titleLabel.text = "How to get there"
+            return cell
+
+        case 4:
+            let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: RestaurantDetailMapCell.self), for: indexPath) as! RestaurantDetailMapCell
+            cell.configure(location: plants.location)
+            return cell
         default:
             fatalError("Failed to instantiate the table view cell.")
         }
@@ -46,6 +58,8 @@ class PlantDetailViewController: UIViewController, UITableViewDataSource, UITabl
     @IBOutlet weak var headerView: plantDetailHeaderView!
    // @IBOutlet var plantImageView: UIImageView!
    // var plantImageName = ""
+    
+
     override func viewDidLoad()
     {
         super.viewDidLoad()
@@ -59,8 +73,16 @@ class PlantDetailViewController: UIViewController, UITableViewDataSource, UITabl
         navigationItem.largeTitleDisplayMode = .never
         
     }
-
-    override func didReceiveMemoryWarning() {
+    override func prepare(for segue:UIStoryboardSegue, sender: Any?)
+    {
+        if segue.identifier == "toMap"
+        {
+            let destinationController = segue.destination as! mapViewController
+            destinationController.plants = plants
+        }
+    }
+    override func didReceiveMemoryWarning()
+    {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
