@@ -20,9 +20,7 @@
 
 
 ## 參考資料
-<ol>
 <li>YOUTUBE</li>
 <li>WIKIPEDIA</li>
 <li>SWIFT IBOOK<li>
 <li>classmate<li>
-</ol>
