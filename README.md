@@ -1,6 +1,6 @@
 # ios-final
 <img src = "https://www.ncnu.edu.tw/ncnuweb/units/share/全校共用/web_material/images/banner/banner_3.gif">
-- - -
+---
 <p>app home page</p>
 <img src = "https://github.com/qianchuen/ios-final/blob/master/swaybian/Assets.xcassets/home.imageset/home.png
 " height = 812 width = 375>
